@@ -5,7 +5,7 @@
 
 模仿 视频播放横竖屏切换 ，效果如下：
 
-![](http://s6.sinaimg.cn/mw690/0028NHt6gy6TOyzBozPd5&690)
+![](http://s13.sinaimg.cn/mw690/0028NHt6gy6TOANU8ZCdc&690)
 
 如果要横竖屏都支持的app，我觉得最好就用autolayout来布局界面。不然重置位置很麻烦。
 
