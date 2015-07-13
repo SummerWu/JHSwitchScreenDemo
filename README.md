@@ -65,4 +65,4 @@
 
 ![](http://s6.sinaimg.cn/mw690/0028NHt6gy6TOyzBozPd5&690)
 
-配套的博客：URLhttp://blog.sina.com.cn/s/blog_74f6a6700102vvpz.html
+配套的博客：http://blog.sina.com.cn/s/blog_74f6a6700102vvpz.html
