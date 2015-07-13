@@ -71,14 +71,14 @@
 
 // 切换成全屏的准备工作
 - (void)p_prepareFullScreen {
-    _rotatoButton.titleLabel.text = @"竖屏播放";
+    [_rotatoButton setTitle:@"竖屏播放" forState:UIControlStateNormal];
     _headerViewHeight.constant = 0;
     _contentViewBottomMargin.constant = 0;
 }
 
 // 切换成小屏的准备工作
 - (void)p_prepareSmallScreen {
-    _rotatoButton.titleLabel.text = @"横屏播放";
+    [_rotatoButton setTitle:@"横屏播放" forState:UIControlStateNormal];
     _headerViewHeight.constant = 60;
     _contentViewBottomMargin.constant = 380;
 }
