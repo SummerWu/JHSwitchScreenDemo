@@ -1,5 +1,5 @@
 # JHSwitchScreenDemo
-横竖屏切换（仿视频播放）
+横竖屏切换（仿视频播放），简单Demo。
 
 # 介绍：横竖屏切换
 
@@ -46,7 +46,7 @@
 
 先看一下基本的界面布局：
 
-
+![](http://s10.sinaimg.cn/mw690/0028NHt6gy6TOzsKx1Dd9&690)
 
 基本的添加约束就不说了，这里讲一下横屏如何布满屏幕。
 （1）headerView有一个高度约束；
@@ -63,6 +63,6 @@
 
 模仿 视频播放横竖屏切换 搞定，效果如下：
 
+![](http://s6.sinaimg.cn/mw690/0028NHt6gy6TOyzBozPd5&690)
 
-
-Demo的路径：
+配套的博客：URLhttp://blog.sina.com.cn/s/blog_74f6a6700102vvpz.html
