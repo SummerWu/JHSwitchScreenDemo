@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F4854431B5352AC00E7A613 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4854421B5352AC00E7A613 /* main.m */; };
+		7F4854461B5352AC00E7A613 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4854451B5352AC00E7A613 /* AppDelegate.m */; };
+		7F4854491B5352AC00E7A613 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4854481B5352AC00E7A613 /* ViewController.m */; };
+		7F48544C1B5352AC00E7A613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F48544A1B5352AC00E7A613 /* Main.storyboard */; };
+		7F48544E1B5352AC00E7A613 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F48544D1B5352AC00E7A613 /* Images.xcassets */; };
+		7F4854511B5352AC00E7A613 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F48544F1B5352AC00E7A613 /* LaunchScreen.xib */; };
+		7F48545D1B5352AC00E7A613 /* JHSwitchScreenDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F48545C1B5352AC00E7A613 /* JHSwitchScreenDemoTests.m */; };
+		7F48546C1B53618100E7A613 /* JHRotatoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F48546B1B53618100E7A613 /* JHRotatoUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F4854571B5352AC00E7A613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F4854351B5352AC00E7A613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F48543C1B5352AC00E7A613;
+			remoteInfo = JHSwitchScreenDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F48543D1B5352AC00E7A613 /* JHSwitchScreenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHSwitchScreenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4854411B5352AC00E7A613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4854421B5352AC00E7A613 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F4854441B5352AC00E7A613 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F4854451B5352AC00E7A613 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F4854471B5352AC00E7A613 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F4854481B5352AC00E7A613 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F48544B1B5352AC00E7A613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F48544D1B5352AC00E7A613 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F4854501B5352AC00E7A613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7F4854561B5352AC00E7A613 /* JHSwitchScreenDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHSwitchScreenDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F48545B1B5352AC00E7A613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F48545C1B5352AC00E7A613 /* JHSwitchScreenDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHSwitchScreenDemoTests.m; sourceTree = "<group>"; };
+		7F48546A1B53618100E7A613 /* JHRotatoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRotatoUtil.h; sourceTree = "<group>"; };
+		7F48546B1B53618100E7A613 /* JHRotatoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRotatoUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F48543A1B5352AC00E7A613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4854531B5352AC00E7A613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F4854341B5352AC00E7A613 = {
+			isa = PBXGroup;
+			children = (
+				7F48543F1B5352AC00E7A613 /* JHSwitchScreenDemo */,
+				7F4854591B5352AC00E7A613 /* JHSwitchScreenDemoTests */,
+				7F48543E1B5352AC00E7A613 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F48543E1B5352AC00E7A613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F48543D1B5352AC00E7A613 /* JHSwitchScreenDemo.app */,
+				7F4854561B5352AC00E7A613 /* JHSwitchScreenDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F48543F1B5352AC00E7A613 /* JHSwitchScreenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7F4854661B53611E00E7A613 /* JHRotateControl */,
+				7F4854441B5352AC00E7A613 /* AppDelegate.h */,
+				7F4854451B5352AC00E7A613 /* AppDelegate.m */,
+				7F4854471B5352AC00E7A613 /* ViewController.h */,
+				7F4854481B5352AC00E7A613 /* ViewController.m */,
+				7F48544A1B5352AC00E7A613 /* Main.storyboard */,
+				7F48544D1B5352AC00E7A613 /* Images.xcassets */,
+				7F48544F1B5352AC00E7A613 /* LaunchScreen.xib */,
+				7F4854401B5352AC00E7A613 /* Supporting Files */,
+			);
+			path = JHSwitchScreenDemo;
+			sourceTree = "<group>";
+		};
+		7F4854401B5352AC00E7A613 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F4854411B5352AC00E7A613 /* Info.plist */,
+				7F4854421B5352AC00E7A613 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F4854591B5352AC00E7A613 /* JHSwitchScreenDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F48545C1B5352AC00E7A613 /* JHSwitchScreenDemoTests.m */,
+				7F48545A1B5352AC00E7A613 /* Supporting Files */,
+			);
+			path = JHSwitchScreenDemoTests;
+			sourceTree = "<group>";
+		};
+		7F48545A1B5352AC00E7A613 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F48545B1B5352AC00E7A613 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F4854661B53611E00E7A613 /* JHRotateControl */ = {
+			isa = PBXGroup;
+			children = (
+				7F48546A1B53618100E7A613 /* JHRotatoUtil.h */,
+				7F48546B1B53618100E7A613 /* JHRotatoUtil.m */,
+			);
+			path = JHRotateControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F48543C1B5352AC00E7A613 /* JHSwitchScreenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4854601B5352AC00E7A613 /* Build configuration list for PBXNativeTarget "JHSwitchScreenDemo" */;
+			buildPhases = (
+				7F4854391B5352AC00E7A613 /* Sources */,
+				7F48543A1B5352AC00E7A613 /* Frameworks */,
+				7F48543B1B5352AC00E7A613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHSwitchScreenDemo;
+			productName = JHSwitchScreenDemo;
+			productReference = 7F48543D1B5352AC00E7A613 /* JHSwitchScreenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4854551B5352AC00E7A613 /* JHSwitchScreenDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4854631B5352AC00E7A613 /* Build configuration list for PBXNativeTarget "JHSwitchScreenDemoTests" */;
+			buildPhases = (
+				7F4854521B5352AC00E7A613 /* Sources */,
+				7F4854531B5352AC00E7A613 /* Frameworks */,
+				7F4854541B5352AC00E7A613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F4854581B5352AC00E7A613 /* PBXTargetDependency */,
+			);
+			name = JHSwitchScreenDemoTests;
+			productName = JHSwitchScreenDemoTests;
+			productReference = 7F4854561B5352AC00E7A613 /* JHSwitchScreenDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F4854351B5352AC00E7A613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = JiehaoWu;
+				TargetAttributes = {
+					7F48543C1B5352AC00E7A613 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7F4854551B5352AC00E7A613 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7F48543C1B5352AC00E7A613;
+					};
+				};
+			};
+			buildConfigurationList = 7F4854381B5352AC00E7A613 /* Build configuration list for PBXProject "JHSwitchScreenDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F4854341B5352AC00E7A613;
+			productRefGroup = 7F48543E1B5352AC00E7A613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F48543C1B5352AC00E7A613 /* JHSwitchScreenDemo */,
+				7F4854551B5352AC00E7A613 /* JHSwitchScreenDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F48543B1B5352AC00E7A613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F48544C1B5352AC00E7A613 /* Main.storyboard in Resources */,
+				7F4854511B5352AC00E7A613 /* LaunchScreen.xib in Resources */,
+				7F48544E1B5352AC00E7A613 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4854541B5352AC00E7A613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F4854391B5352AC00E7A613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4854491B5352AC00E7A613 /* ViewController.m in Sources */,
+				7F4854461B5352AC00E7A613 /* AppDelegate.m in Sources */,
+				7F48546C1B53618100E7A613 /* JHRotatoUtil.m in Sources */,
+				7F4854431B5352AC00E7A613 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4854521B5352AC00E7A613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F48545D1B5352AC00E7A613 /* JHSwitchScreenDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F4854581B5352AC00E7A613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F48543C1B5352AC00E7A613 /* JHSwitchScreenDemo */;
+			targetProxy = 7F4854571B5352AC00E7A613 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F48544A1B5352AC00E7A613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F48544B1B5352AC00E7A613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F48544F1B5352AC00E7A613 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4854501B5352AC00E7A613 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F48545E1B5352AC00E7A613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F48545F1B5352AC00E7A613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F4854611B5352AC00E7A613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JHSwitchScreenDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F4854621B5352AC00E7A613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JHSwitchScreenDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F4854641B5352AC00E7A613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JHSwitchScreenDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHSwitchScreenDemo.app/JHSwitchScreenDemo";
+			};
+			name = Debug;
+		};
+		7F4854651B5352AC00E7A613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JHSwitchScreenDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHSwitchScreenDemo.app/JHSwitchScreenDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F4854381B5352AC00E7A613 /* Build configuration list for PBXProject "JHSwitchScreenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F48545E1B5352AC00E7A613 /* Debug */,
+				7F48545F1B5352AC00E7A613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4854601B5352AC00E7A613 /* Build configuration list for PBXNativeTarget "JHSwitchScreenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4854611B5352AC00E7A613 /* Debug */,
+				7F4854621B5352AC00E7A613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F4854631B5352AC00E7A613 /* Build configuration list for PBXNativeTarget "JHSwitchScreenDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4854641B5352AC00E7A613 /* Debug */,
+				7F4854651B5352AC00E7A613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F4854351B5352AC00E7A613 /* Project object */;
+}

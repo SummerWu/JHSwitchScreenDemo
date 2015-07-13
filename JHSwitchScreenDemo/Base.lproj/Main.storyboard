@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uWP-r0-4wD">
+                                <rect key="frame" x="-4" y="0.0" width="608" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="PD3-ce-cSi"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nOQ-BB-fgt">
+                                <rect key="frame" x="-4" y="60" width="608" height="116"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPe-6U-3pO">
+                                        <rect key="frame" x="264" y="36" width="80" height="44"/>
+                                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="EXQ-Kt-ubE"/>
+                                            <constraint firstAttribute="width" constant="80" id="vhM-pJ-nBy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="横屏播放">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="rotatoButtonTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JRx-Da-T1N"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.85216534445525427" green="1" blue="0.72844821301561269" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="SPe-6U-3pO" secondAttribute="centerX" id="5sr-2l-8iF"/>
+                                    <constraint firstAttribute="centerY" secondItem="SPe-6U-3pO" secondAttribute="centerY" id="ht2-my-j1E"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nOQ-BB-fgt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-20" id="1pU-PG-U8F"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nOQ-BB-fgt" secondAttribute="trailing" constant="-20" id="BUm-g5-9uX"/>
+                            <constraint firstItem="uWP-r0-4wD" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="K4Y-0e-Z6e"/>
+                            <constraint firstItem="nOQ-BB-fgt" firstAttribute="top" secondItem="uWP-r0-4wD" secondAttribute="bottom" id="KJC-Fq-IQd"/>
+                            <constraint firstItem="uWP-r0-4wD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-20" id="P9d-fM-K7g"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uWP-r0-4wD" secondAttribute="trailing" constant="-20" id="hvm-K5-6Lr"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="nOQ-BB-fgt" secondAttribute="bottom" constant="380" id="yaJ-PZ-3Po"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="contentView" destination="nOQ-BB-fgt" id="HR9-bn-KxG"/>
+                        <outlet property="contentViewBottomMargin" destination="yaJ-PZ-3Po" id="YvW-3R-ESH"/>
+                        <outlet property="headerView" destination="uWP-r0-4wD" id="1JH-jY-pgY"/>
+                        <outlet property="headerViewHeight" destination="PD3-ce-cSi" id="Gl1-lu-zXf"/>
+                        <outlet property="rotatoButton" destination="SPe-6U-3pO" id="tiE-dv-YSP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
