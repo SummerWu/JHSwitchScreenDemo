@@ -3,6 +3,10 @@
 
 # 介绍：横竖屏切换
 
+模仿 视频播放横竖屏切换 ，效果如下：
+
+![](http://s6.sinaimg.cn/mw690/0028NHt6gy6TOyzBozPd5&690)
+
 如果要横竖屏都支持的app，我觉得最好就用autolayout来布局界面。不然重置位置很麻烦。
 
 //iOS8旋转动作的具体执行
@@ -61,8 +65,5 @@
 
 当切换回竖屏时，再设为初始值，搞定！
 
-模仿 视频播放横竖屏切换 搞定，效果如下：
-
-![](http://s6.sinaimg.cn/mw690/0028NHt6gy6TOyzBozPd5&690)
 
 配套的博客：http://blog.sina.com.cn/s/blog_74f6a6700102vvpz.html
